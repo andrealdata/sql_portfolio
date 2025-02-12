@@ -1,0 +1,21 @@
+with t1 as -- get the fips code and the median income, join to the zips to fips data to get zip code to join to sample superstore data
+(
+	select distinct
+	cd.fips
+	, ztf.ZIP as zip
+	, ztf.STATE as state
+	, ztf.CNTY_NAME as county_name
+	, cd.Median_Household_Income_2022 as median_income_2022
+	from sandbox.census_data cd 
+	join sandbox.zips_to_fips ztf 
+		on cd.fips = ztf.FIPS
+) -- select * from t1;
+, t2 as
+(
+	select 
+	ss.*
+	, median_income_2022
+	from sandbox.sample_superstore ss
+	left join t1
+		on ss.`Postal Code` = t1.zip
+) select * from t2;
