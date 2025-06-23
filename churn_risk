@@ -92,21 +92,21 @@ SELECT
     when avg_csat_score >= 2.5 and avg_csat_score < 3.5 then 2
     when avg_csat_score >= 3.5 and avg_csat_score < 4.0 then 1
     when avg_csat_score >= 4.0 then 0
-    else 0  
+    else 0  -- Fallback for any unexpected values
 end) +
 (case
     when days_since_last_login is null or days_since_last_login > 60 then 3
     when days_since_last_login > 30 and days_since_last_login <= 60 then 2
     when days_since_last_login > 14 and days_since_last_login <= 30 then 1
     when days_since_last_login >= 0 and days_since_last_login <= 14 then 0
-    else 0  
+    else 0  -- Fallback for negative values or unexpected data
 end) +
 (case
     when ticket_count is null then 0  
     when ticket_count > 10 then 2
     when ticket_count > 5 and ticket_count <= 10 then 1
     when ticket_count >= 0 and ticket_count <= 5 then 0
-    else 0  
+    else 0  -- Fallback for negative values
 end) +
 (case
     when avg_resolution_hrs is null then 0 
