@@ -1,38 +1,35 @@
 # sql_portfolio
-About Me:
+About Me:<br>
 Welcome! I'm Andrea, an experienced data analyst who passionate about using data to help people. This portfolio showcases a SQL project working with a churn rate dataset and building visualizations. I selected this project so that I could expand my knowledge of customer-based data.
 
-Project Title: Churn Risk Analysis
+Project Title: Churn Risk Analysis<br>
 Primary goal of the analysis: This goal of this project was to identify which accounts may be at risk for churn and signs of disengagement.
 
-Database: MySQL - Dbeaver
-Languages: SQL
-Visualization: Looker
+Database: MySQL using Dbeaver<br>
+Languages: SQL<br>
+Visualization: Looker<br>
 
-Key Findings
-Finding 1: Brief description with impact/metric
-Finding 2: Brief description with impact/metric
+Key Findings<br>
+Finding 1: There are 10 high risk accounts. 30% of Retail accounts are at high risk of churn, totaling 1,032,854 in annual revenue that could be lost.<br>
+Finding 2: There are 4 premium plans at high risk.<br>
 Finding 3: Brief description with impact/metric
 
-Dashboard
+Method:<br>
+Data Collection: How you gathered the data<br>
+Data Cleaning: Key cleaning steps and challenges<br>
+Analysis Approach: Statistical methods, techniques used<br>
 
-Live Dashboard: [Link to Tableau Public/Streamlit/Power BI dashboard]
+Dashboard:<br>
+Live Dashboard: [Link to Tableau Public/Streamlit/Power BI dashboard]<br>
+This will continue to be updated as Looker is a new tool for me and I have been learning more using it!<br>
 
-💾 Data Sources
-
-Primary Dataset: customers
+Data Sources:<br>
+Primary Dataset: customers<br>
 Secondary Datasets: product_usage, support_interactions
 
-🔍 Methodology
-
-Data Collection: How you gathered the data
-Data Cleaning: Key cleaning steps and challenges
-Analysis Approach: Statistical methods, techniques used
-Validation: How you verified your results
-
-📧 Contact
-
-LinkedIn: [Your LinkedIn Profile]
+Contact:<br>
+[Connect with me on LinkedIn](https://www.linkedin.com/in/andrea-lunn-909b2b185/)
+<br>
 Email: andrea.e.lunn@gmail.com
 
 
