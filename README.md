@@ -23,6 +23,7 @@ Links:<br>
 SQL Query: [churn_risk_dataset](https://github.com/andrealdata/sql_portfolio/blob/main/churn_risk)<br>
 Live Dashboard: [Link to Looker](https://lookerstudio.google.com/reporting/181a230e-15d2-4cf2-9a23-b576f64ee0ea)<br>
 This will continue to be updated as Looker is a new tool for me and I have been learning more using it!<br>
+<iframe width="600" height="450" src="https://lookerstudio.google.com/embed/reporting/181a230e-15d2-4cf2-9a23-b576f64ee0ea/page/6MvOF" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
 
 Data Sources:<br>
 Primary Dataset: customers<br>
