@@ -20,7 +20,7 @@ Data Cleaning: I did some data profiling and general EDA in the csvs. Once uploa
 Analysis Approach: I assigned points to various metrics to identify their risk value. These metrics were avg_csat_score (customer_satisfaction), days_since_last_login, ticket_count, and avg_resolution_hrs.<br>
 
 Links:<br>
-SQL Query: [churn_risk_dataset](https://github.com/andrealdata/sql_portfolio/blob/main/churn_risk)
+SQL Query: [churn_risk_dataset](https://github.com/andrealdata/sql_portfolio/blob/main/churn_risk)<br>
 Live Dashboard: [Link to Looker](https://lookerstudio.google.com/reporting/181a230e-15d2-4cf2-9a23-b576f64ee0ea)<br>
 This will continue to be updated as Looker is a new tool for me and I have been learning more using it!<br>
 
@@ -29,7 +29,7 @@ Primary Dataset: customers<br>
 Secondary Datasets: product_usage, support_interactions
 
 Contact:<br>
-[Connect with me on LinkedIn](https://www.linkedin.com/in/andrea-lunn-909b2b185/)
+[Connect with me on LinkedIn!](https://www.linkedin.com/in/andrea-lunn-909b2b185/)
 <br>
 Email: andrea.e.lunn@gmail.com
 
