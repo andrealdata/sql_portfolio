@@ -2,22 +2,39 @@
 About Me:<br>
 Welcome! I'm Andrea, an experienced data analyst who passionate about using data to help people. This portfolio showcases a SQL project working with a churn rate dataset and building visualizations. I selected this project so that I could expand my knowledge of customer-based data.
 
-Project Title: Churn Risk Analysis<br>
-Primary goal of the analysis: This goal of this project was to identify which accounts may be at risk for churn and signs of disengagement.
+Objective:<b>
+The goal of this project was to identify accounts at risk of churn and detect early indicators of customer disengagement. By analyzing behavioral and support metrics, I aimed to help the business proactively retain valuable customers.<b>
 
-Database: MySQL using Dbeaver<br>
-Languages: SQL<br>
-Visualization: Looker<br>
+Tools Used:<b>
+Database: MySQL (via DBeaver)<b>
+Language: SQL<b>
+Visualization: Looker<b>
 
-Key Findings<br>
-Finding 1: There are 10 high risk accounts. 30% of Retail accounts are at high risk of churn, totaling 1,032,854 in annual revenue that could be lost.<br>
-Finding 2: There are 4 premium plans at high risk, totaling 2,190,717.<br>
-Finding 3: There are 11 low risk accounts with the majority being on the Basic plan.<br>
+Key Findings<b>
+  10 High-Risk Accounts Identified<b>
+  30% of Retail accounts are at high risk of churn, representing $1,032,854 in potential annual revenue loss.<b>
 
-Method:<br>
-Data Collection: I got the csv datasets from a ChatGPT prompt.<br>
-Data Cleaning: I did some data profiling and general EDA in the csvs. Once uploaded to the database, I handled for some date formatting.<br>
-Analysis Approach: I assigned points to various metrics to identify their risk value. These metrics were avg_csat_score (customer_satisfaction), days_since_last_login, ticket_count, and avg_resolution_hrs.<br>
+  4 Premium Plans at Risk<b>
+  These accounts represent $2,190,717 in total value and warrant immediate retention strategies.<b>
+
+  11 Low-Risk Accounts<b>
+  The majority of these are on the Basic plan and show healthy engagement patterns.<b>
+
+Methodology
+Data Collection:<b>
+CSV datasets were sourced using a ChatGPT prompt to simulate realistic customer engagement and support scenarios.<b>
+
+Data Cleaning & Preparation:<b>
+Performed exploratory data analysis (EDA) in the CSVs, including profiling and cleaning. After importing into MySQL, I addressed formatting issues, specifically with date fields.<b>
+
+Risk Scoring Approach:<b>
+I created a custom point based risk scoring model using the following metrics:<b>
+  Average CSAT Score (Customer Satisfaction)<b>
+  Days Since Last Login<b>
+  Support Ticket Count<b>
+  Average Resolution Time (Hours)<b>
+
+Each metric contributed to a composite churn risk score, which I used to classify accounts into high, moderate, and low risk tiers.<b>
 
 Links:<br>
 SQL Query: [churn_risk_dataset](https://github.com/andrealdata/sql_portfolio/blob/main/churn_risk)<br>
