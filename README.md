@@ -20,7 +20,7 @@ Key Findings<br>
 &nbsp;&nbsp;11 Low-Risk Accounts<br>
 &nbsp;&nbsp;The majority of these are on the Basic plan and show healthy engagement patterns.<br>
 
-Methodology
+Methodology<br>
 Data Collection:<br>
 CSV datasets were sourced using a ChatGPT prompt to simulate realistic customer engagement and support scenarios.<br>
 
