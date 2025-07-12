@@ -11,14 +11,14 @@ Language: SQL<b>
 Visualization: Looker<b>
 
 Key Findings<b>
-  10 High-Risk Accounts Identified<b>
-  30% of Retail accounts are at high risk of churn, representing $1,032,854 in potential annual revenue loss.<b>
+&nbsp;&nbsp;10 High-Risk Accounts Identified<b>
+&nbsp;&nbsp;30% of Retail accounts are at high risk of churn, representing $1,032,854 in potential annual revenue loss.<b>
 
-  4 Premium Plans at Risk<b>
-  These accounts represent $2,190,717 in total value and warrant immediate retention strategies.<b>
+&nbsp;&nbsp;4 Premium Plans at Risk<b>
+&nbsp;&nbsp;These accounts represent $2,190,717 in total value and warrant immediate retention strategies.<b>
 
-  11 Low-Risk Accounts<b>
-  The majority of these are on the Basic plan and show healthy engagement patterns.<b>
+&nbsp;&nbsp;11 Low-Risk Accounts<b>
+&nbsp;&nbsp;The majority of these are on the Basic plan and show healthy engagement patterns.<b>
 
 Methodology
 Data Collection:<b>
@@ -29,10 +29,10 @@ Performed exploratory data analysis (EDA) in the CSVs, including profiling and c
 
 Risk Scoring Approach:<b>
 I created a custom point based risk scoring model using the following metrics:<b>
-  Average CSAT Score (Customer Satisfaction)<b>
-  Days Since Last Login<b>
-  Support Ticket Count<b>
-  Average Resolution Time (Hours)<b>
+&nbsp;&nbsp;Average CSAT Score (Customer Satisfaction)<b>
+&nbsp;&nbsp;Days Since Last Login<b>
+&nbsp;&nbsp;Support Ticket Count<b>
+&nbsp;&nbsp;Average Resolution Time (Hours)<b>
 
 Each metric contributed to a composite churn risk score, which I used to classify accounts into high, moderate, and low risk tiers.<b>
 
